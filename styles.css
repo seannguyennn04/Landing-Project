@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
     box-sizing: border-box; 
@@ -8,10 +7,12 @@
 
 }
 
-body{
-    font-family: Roboto;
+body { 
+    font-family: 'Roboto', sans-serif;
 }
 
+
+/* start of header section */
 
 .header, .hero{
     background-color:#1F2937;
@@ -49,6 +50,10 @@ body{
     color: white 
 }
 
+/* end of header section */
+
+
+/*start of hero section*/
 .hero{
     display: flex;
     justify-content: space-between;
@@ -95,4 +100,100 @@ body{
     text-align: center;
     color: white;
 }
+
+/*end of hero section*/
+
+.container{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.info-text #info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center; 
+}
+
+.container .info {
+    display: flex;
+    flex-direction: column; /* so box + text stack vertically */
+    align-items: center;
+    margin: 20px;
+    width: 200px; /* adjust as needed */
+}
+
+.container .box {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px
+}
+
+
+/*start of quote section*/
+
+.quote-section { 
+    background-color: #e5e7eb;
+
+}
+
+
+.quote-section #quote{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 20px;
+    color: #1f2937
+}
+
+.quote-section #person{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+    padding-bottom: 100px;
+}
+
+/*end of quote section*/
+
+
+
+/*start of action box*/
+
+.call-to-action{
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.call-to-action .box{
+    height: 85px;
+    width: 600px;
+    background-color:#3882F6;
+    text-align: center;
+}
+
+.call-to-action .sign-up-button{ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
 
