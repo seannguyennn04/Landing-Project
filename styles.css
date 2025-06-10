@@ -180,19 +180,44 @@ body {
 }
 
 .call-to-action .box{
-    height: 85px;
-    width: 600px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1000px;
     background-color:#3882F6;
-    text-align: center;
+    border-radius: 4px;
+    padding: 0 10%;
 }
 
-.call-to-action .sign-up-button{ 
+
+
+
+
+button {
+    padding: 8px 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+/*end of call to action section*/
+
+/*start of footer section*/
+
+.footer{
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+
+
 }
-
-
-
 
 
 
